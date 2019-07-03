@@ -1,8 +1,8 @@
 # 配置 dev 环境
 spring:
   profiles: dev
-    application:
-      name: abcms-eurekaServer-config
+  application:
+    name: eurekaServer-config
 
 server:
  port: 8001
