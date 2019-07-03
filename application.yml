@@ -1,0 +1,11 @@
+spring:
+  profiles:
+    active: dev
+  application:
+    name: config-dev
+
+#spring:
+#  profiles:
+#    active: test
+#  application:
+#    name: config-test
