@@ -1,0 +1,35 @@
+# 配置 dev 环境
+spring:
+  profiles: dev
+    application:
+      name: abcms-eurekaServer-config
+
+server:
+ port: 8001
+
+eureka:
+  instance:
+    hostname: eureka8001.com
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+    service-url:
+      defaultZone: http://eureka8001.com:8001/eureka
+
+
+spring:
+  profiles: test
+  application:
+    name: abcms-eurekaServer-config
+
+server:
+  port: 8002
+
+eureka:
+  instance:
+    hostname: eureka8002.com
+  client:
+      register-with-eureka: false
+      fetch-registry: false
+  service-url: # 暴露服务中心地址
+    defaultZone: http://eureka8002.com:8002/eureka
