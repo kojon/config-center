@@ -1,11 +1,10 @@
 spring:
+  application:
+    name: config-dev
   profiles:
     active: dev
 
-spring:
-  application:
-    name: config-dev
-  profiles: dev
+#  profiles: dev
 
 #spring:
 #  application:
