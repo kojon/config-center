@@ -7,7 +7,7 @@ spring:
     config:
       server:
         git:
-          uri: git@github.com:kojon/config-center.git
+          uri: https://github.com/kojon/config-center.git
           timeout: 5 # 获取到远程git库连接的超时时限，默认为5秒
           default-label: master  # 指定要操作的远程git库的分支，默认master
   profiles:

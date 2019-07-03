@@ -1,7 +1,0 @@
-spring:
-  cloud:
-    config:
-      uri: http://configserver.com:9999
-      label: master
-      name: application-provider-config
-      profile: dev
