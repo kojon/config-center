@@ -1,7 +1,7 @@
 ## env dev
 
 #用来测试bus总线同步
-suffix: consumer-suffix-dev
+suffix: consumer-suffix-dev-01
 
 server:
   port: 7070
