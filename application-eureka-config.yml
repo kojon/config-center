@@ -21,7 +21,7 @@ eureka:
 spring:
   profiles: test
   application:
-    name: abcms-eurekaServer-config
+    name: eurekaServer-config
 
 server:
   port: 8002
