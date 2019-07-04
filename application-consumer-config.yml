@@ -1,7 +1,7 @@
 ## env dev
 
 #用来测试bus总线同步
-flag: consumer-flag-dev
+suffix: consumer-suffix-dev
 
 server:
   port: 7070
@@ -25,7 +25,7 @@ feign:
 ## env test
 
 #用来测试bus总线同步
-flag: consumer-flag-test
+suffix: consumer-suffix-test
 
 server:
   port: 9090
