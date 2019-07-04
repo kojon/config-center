@@ -1,4 +1,8 @@
 ## env dev
+
+#用来测试bus总线同步
+flag: provider-flag-dev
+
 server:
   port: 8084
 
@@ -32,6 +36,10 @@ eureka:
 
 ---
 ## env test
+
+#用来测试bus总线同步
+flag: provider-flag-test
+
 server:
   port: 8085
 
