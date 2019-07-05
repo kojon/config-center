@@ -1,14 +1,17 @@
+# 激活环境
 spring:
   profiles:
     active: dev
 
 ---
+# dev环境
 spring:
   application:
     name: config-dev
   profiles: dev
 
 ---
+# test环境
 spring:
   application:
     name: config-test
