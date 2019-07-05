@@ -1,6 +1,10 @@
 # config-center
 
-项目说明：spring cloud配置中心
+#### 项目说明
+
+spring cloud配置中心
+
+#### 参考文档
 
 spring官网：
 
@@ -8,11 +12,11 @@ spring官网：
 
 手册：https://cloud.spring.io/spring-cloud-static/spring-cloud-config/2.1.1.RELEASE/single/spring-cloud-config.html
 
-#### 项目文档说明：
+#### 项目文档说明
 
 请参考文档中注释
 
-##### 提示: 
+#### 提示
 
 yaml(yml) 特殊符号---说明
 
